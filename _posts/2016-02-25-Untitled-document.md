@@ -2,7 +2,7 @@
 title: Media Navigator
 layout: post
 author: harry.keyland
-permalink: /untitled-document/
+permalink: /media-navigator/
 source-id: 15bN6FGqmDE3eUNZ7rKgeQsqBJo3oYtSmjwSeZ4wscqg
 published: true
 ---
