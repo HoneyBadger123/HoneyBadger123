@@ -2,7 +2,7 @@
 title: FlashPoint
 layout: post
 author: harry.keyland
-permalink: /untitled-document/
+permalink: /FlashPoint/
 source-id: 1rFD1fSymBDHR0NU8EY2SCA_f7Cu_P7Age_2iwUjZ-Qw
 published: true
 ---
