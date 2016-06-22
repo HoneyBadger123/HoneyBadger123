@@ -1,10 +1,12 @@
 ---
-title: Media
+title: Microbit
 layout: post
 author: harry.keyland
 permalink: /untitled-document/
-source-id: 1bSOo608uDfE-ntKlvxahUpe_11pOPmtYQ23PQ4wLgJ4
+source-id: 15zd7h1h48rMGtqAWEyRlFp1_SCYoLD6a5vM5NDjYSuU
 published: true
 ---
-**Media**I have learnt a lot about media like what different types of media there are like newspapers, cinemas, radios etc. I have also found out what adverts do to attract people, the different types of social media like Snapchat, Instagram and facebook.. I have also learnt what are the pros and cons of media like you can chat with your friends on various social medias, You can make your friends laugh but try not to be offensive. We have also learnt how to be safe on social media like: only letting people you know follow you, to stay safe when posting and not to talk with random strangers. In the last 2 weeks we have been talking about what makes your identity like what your hobbies are, what sports do you like, what subjects do you like at school and what your family are like etc.
+**microbit**
+
+Today in IT we did a coding lesson on the sorting hat in Harry Potter. We worked out how the sorting hat would work if it was on a computer. We made the computer randomly pickfour houses, which are; Gryfindor, Ravenclaw, Hufflepuff and Slytherin. But for homework we had to that with our own houses in our school. Our houses are; Rayner, Pearson, Newman, Thorne, Foxell and Holeman. This Creates a sorting hat like code between the numbers 1-6 which are how many houses we have. So if it picks number 4 then it would be Newman, number 5= Pearson etc. When we start running the code it would spell out the word Newman, for example with little dots, if that's what was picked. This is on a website called microbit.
 
