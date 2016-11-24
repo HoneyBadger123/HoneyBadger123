@@ -18,8 +18,7 @@ html {
 }
 
 body {
-  background-image:https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwjsqvKb0rnQAhWJ0xQKHahEB80QjRwIBw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dj22DmsZEv30&psig=AFQjCNHxqsNQg2jTbqf1nSZYL2WSfQdD4g&ust=1479810602668779;
- // background-image: url("http://www.sociallink1.com/wp-content/uploads/2015/06/Free-Download-Background-Images-For-Website-Design-4.jpg");
+   background-image: url("http://wallpapercave.com/wp/UfXBLkT.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -286,14 +285,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
-body { 
-    background-image: url("http://miriadna.com/desctopwalls/images/max/Rising-gold-sun.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-}
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
