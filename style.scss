@@ -22,9 +22,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-position: center; 
-  
   font: 18px/1.4 $helvetica;
   color: #ffffff"container{";"
+.container {	
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -280,3 +280,6 @@ nav {
 footer {
   padding: 20px 0;
 	text-align: center;}}
+
+@import "highlights";
+@import "svg-icons";
