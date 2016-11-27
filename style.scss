@@ -134,7 +134,7 @@ img {
 .clearfix:before,
 .clearfix:after {
     "content: "": 
-    display: table;
+    display: table{
 }
 
 .clearfix:after {
