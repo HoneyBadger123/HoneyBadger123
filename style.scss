@@ -5,7 +5,7 @@
 // IMPORTS
 //
 
-@import "reset"; 
+@import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -18,23 +18,33 @@ html {
 }
 
 body {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/dd/ef/f1/ddeff1861518919f50cde793e433d65f.jpg");
+  background-image: url("http://freshwallpapers.in/walls/abstract_digital-HD.jpg");
+ // background-image: url("http://www.sociallink1.com/wp-content/uploads/2015/06/Free-Download-Background-Images-For-Website-Design-4.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-position: center; 
   font: 18px/1.4 $helvetica;
-  color: #ffffff"container{";"
-.container {	
+  color: #ffffff;
+}
+
+.font_proof {
+	font-family: $cust_font;
+}
+	
+.container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 850px;
   padding: 0 10px;
   width: 100%;
+  background:rgba(35, 50, 55,0.9);
+	border-radius: 25px;
+    padding: 20px; 
+	border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: #ff0000
-  ;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #eac67a;
   font-weight: bold;
 
   line-height: 1.7;
@@ -63,7 +73,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #98434b;
 }
 
 p {
@@ -71,11 +81,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #984b43;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #eac67a;
   }
 }
 
@@ -112,6 +122,40 @@ img {
   max-width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+   border: 1px solid white;
+	background-color:#984b43;
+
+}
+
+td {
+   vertical-align: middle; 
+   padding: 10px;
+}	
+
+th {
+   color: white;
+   background: #233237;
+   height:50px;
+   vertical-align: middle;
+}
+
+div.vid {
+    width: 560px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+iframe{
+	width: 100%;
+	
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -119,22 +163,25 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: white;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: bold;
+  background: $lightGray;
 }
 ::selection {
   color: $black;
-  background: 1px;
+  background: $lightGray;
 }
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    "content: "": 
-    display: table{
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
@@ -150,12 +197,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid white;
 
   @include mobile {
     text-align: center;
@@ -191,7 +238,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #eac67a;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -201,7 +248,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: white;
   font-size: 16px;
 
   @include mobile {
@@ -224,7 +271,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -242,7 +289,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid white;
 }
 
 .posts > .post:last-child {
@@ -253,9 +300,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid white;
     padding: 0.1em 1em;
-    color: $gray;
+    color: white;
     font-size: 22px;
     font-style: italic;
   }
@@ -270,16 +317,20 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: bold;
-}
+//.wrapper-footer {
+//  margin-top: 50px;
+//  border-top: 1px solid #ddd;
+//  border-bottom: 1px solid #ddd;
+//  background-color: $lightGray;
+//}
 
 footer {
   padding: 20px 0;
-	text-align: center;}}
+  text-align: center;
+	border-bottom: 1px solid white;
+}
 
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
