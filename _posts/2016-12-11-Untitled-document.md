@@ -1,5 +1,5 @@
 ---
-title: Untitled document
+title: Blog Week 7
 layout: post
 author: harry.keyland
 permalink: /untitled-document/
