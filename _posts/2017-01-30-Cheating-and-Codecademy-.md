@@ -1,5 +1,5 @@
 ---
-title: Cheating and Codecademy 
+title: Cheating and Codecademy 2 
 layout: post
 author: harry.keyland
 permalink: /cheating-and-codecademy-/
