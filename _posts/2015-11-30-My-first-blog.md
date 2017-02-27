@@ -8,5 +8,5 @@ published: true
 ---
 Hi 
 
-This is my first blog. Hope you like it.
+This is my first blog. On this blog i will be writing about my IT lessons as they are the reason I made this blog.
 
