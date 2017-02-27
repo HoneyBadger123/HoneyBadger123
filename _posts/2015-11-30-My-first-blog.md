@@ -2,7 +2,7 @@
 title: First post
 layout: post
 author: harry.keyland
-permalink: /untitled-document/
+permalink: /First-post/
 source-id: 10zjTUVqpFw-TBPHx3JieqW7e9J73UAx6tKFYvOUdFjo
 published: true
 ---
