@@ -2,17 +2,10 @@
 ---
 ---
 
-//
-// IMPORTS
-//
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
 
 html {
   font-size: 100%;
@@ -156,8 +149,6 @@ iframe{
 	width: 100%;
 	
 }
-
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
@@ -166,8 +157,6 @@ iframe{
   font-style: italic;
   color: white;
 }
-
-// Specify the color of the selection
 ::-moz-selection {
   color: $black;
   background: $lightGray;
@@ -177,8 +166,6 @@ iframe{
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -189,13 +176,6 @@ iframe{
     clear: both;
 }
 
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
 
 .wrapper-masthead {
   margin-bottom: 25px;
@@ -318,12 +298,6 @@ nav {
   }
 }
 
-//.wrapper-footer {
-//  margin-top: 50px;
-//  border-top: 1px solid #ddd;
-//  border-bottom: 1px solid #ddd;
-//  background-color: $lightGray;
-//}
 
 footer {
   padding: 20px 0;
@@ -331,7 +305,5 @@ footer {
 	border-bottom: 1px solid white;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
