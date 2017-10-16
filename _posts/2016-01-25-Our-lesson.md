@@ -2,7 +2,7 @@
 title: Our lesson
 layout: post
 author: harry.keyland
-permalink: /untitled-document/
+permalink: /Our-Lesson/
 source-id: 1Vwokhhs-nF3AldlwvdMtDegqjKhT6gBKYapRaMMx_GQ
 published: true
 ---
