@@ -1,8 +1,8 @@
 ---
-title: Untitled document
+title: Editing My Blog
 layout: post
 author: harry.keyland
-permalink: /untitled-document/
+permalink: /Editing-My-Blog/
 source-id: 1bjwkKr5l69A8Cv86bDxuVuAlSeUr67TDchloZL5oXbs
 published: true
 ---
